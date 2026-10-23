@@ -137,6 +137,23 @@ section h2 {
     gap: 20px;
 }
 
+.github-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background-color: #24292f;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.github-btn:hover {
+    background-color: #444c56;
+    transform: translateY(-2px);
+}
+
 .card {
     flex: 1;
     background-color: white;
